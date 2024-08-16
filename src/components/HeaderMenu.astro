@@ -4,13 +4,11 @@
 
 <header>
     <div class="sub-container-header">
-        <h1 class="titulo-principal">+code</h1>
+        <h1 class="titulo-principal">Depamar Propiedades</h1>
         <nav class="menu-principal">
-            <a href="/">Inicio</a>
-            <a href="/about">About</a>
-            <a href="/markdown">Markdown</a>
-            <a href="/componentes">Componentes</a>
-            <a href="/gallery">Gallery</a>
+            <a href="/">Propiedades</a>
+            <a href="/publica">Publica</a>
+            <a href="/contacto">Contacto</a>
         </nav>
     </div>
 </header>
@@ -56,10 +54,12 @@
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: baseline;
+        /* align-content: center; */
     }
     .titulo-principal {
-        font-size: calc(1.6rem + 0.6vw);
+        font-size: calc(1rem + 0.6vw);
+        padding: .8rem 0px;
     }
 
     nav {
@@ -69,6 +69,7 @@
     }
 
     nav > a {
+        font-size: calc(.8rem + .3vw);
         padding: 0.8rem calc(0.5rem + 0.5lvw);
         border-radius: 3px;
         transition: scale ease 500ms;
