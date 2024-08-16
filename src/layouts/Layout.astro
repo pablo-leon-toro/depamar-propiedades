@@ -21,7 +21,7 @@ const { title } = Astro.props; // Astro es una variable global que funciona en t
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<meta name="author" content="Pablo León Toro" />
-		<meta name="description" content="Web App inicial Astro." />
+		<meta name="description" content="Depamar Propiedades" />
 		<!-- para el ceo -->
 		<meta name="keywords" content="contenido1, contenido2, contenido3" />
 		<ViewTransitions />
@@ -32,8 +32,7 @@ const { title } = Astro.props; // Astro es una variable global que funciona en t
 			<slot>
 				<section class="slot-defecto">
 					<Line />
-					<h1>+code</h1>
-					<p>Esperando contenidos...</p>
+					<h1>Depamar Propiedades</h1>
 					<Line />
 				</section>
 			</slot>
@@ -116,7 +115,7 @@ const { title } = Astro.props; // Astro es una variable global que funciona en t
 	main {
 		width: var(--max-med-contenido);
 		max-width: var(--maximus-contenido);
-		margin: 5rem auto 0 auto;
+		margin: var(--header-max-h) auto 0 auto;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 

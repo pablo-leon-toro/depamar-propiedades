@@ -1,0 +1,27 @@
+---
+import Line from "../components/Line.astro";
+
+interface Props {
+	idprop: string;
+	transaccion: string;
+	precio: number;
+    hab: number;
+    ban: number;
+    description: string;
+}
+
+const { idprop, transaccion, precio, hab, ban, description } = Astro.props;
+---
+
+<article class="depa-prop">
+    <h3>Propiedad en {transaccion}</h3>
+    <h3>${precio}</h3>
+    <h4>{hab} Habitaciones y {ban} Baños.</h4>
+    <p>{description}</p>
+</article>
+
+<Line/>
+
+<style>
+
+</style>
