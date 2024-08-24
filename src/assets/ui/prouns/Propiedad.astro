@@ -1,5 +1,5 @@
 ---
-import Line from "../components/Line.astro";
+import Line from "../atoms/Line.astro";
 
 interface Props {
 	idprop: string;
@@ -10,7 +10,7 @@ interface Props {
     description: string;
 }
 
-const { idprop, transaccion, precio, hab, ban, description } = Astro.props;
+const { idprop = 'no-id', transaccion = '', precio = 0, hab = 0, ban = 0, description = 'Propiedad no encontrada.' } = Astro.props;
 ---
 
 <article class="depa-prop">
