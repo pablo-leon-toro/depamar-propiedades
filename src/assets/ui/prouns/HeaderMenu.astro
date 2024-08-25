@@ -1,14 +1,14 @@
 ---
-
+import BtnANav from "../atoms/BtnANav.astro"
 ---
 
 <header>
     <div class="sub-container-header">
         <h1 class="titulo-principal">Depamar Propiedades</h1>
         <nav class="menu-principal">
-            <a href="/">Propiedades</a>
-            <a href="/publica">Publica tu Propiedad</a>
-            <a href="/contacto">Contacto</a>
+            <BtnANav href="/" body="Propiedades"/>
+            <BtnANav href="/publica" body="Publica tu Propiedad"/>
+            <BtnANav href="/contacto" body="Contacto"/>
         </nav>
     </div>
 </header>
@@ -66,26 +66,6 @@
         display: flex;
         justify-content: space-between;
         gap: calc(0.5rem + 0.5lvw);
-    }
-
-    nav > a {
-        font-size: calc(.7rem + .3vw);
-        padding: 0.8rem calc(0.5rem + 0.5lvw);
-        border-radius: 3px;
-        transition: scale ease 500ms;
-    }
-    a:is(:hover, :focus-within, .active) {
-        /* animar con opacity */
-        cursor: pointer;
-
-        scale: 1.05;
-
-        background: var(--color-wb-4);
-        background: linear-gradient(
-            180deg,
-            var(--color-wb-4-90) 0%,
-            var(--color-wb-5-60) 80%
-        );
     }
 
 </style>

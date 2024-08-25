@@ -2,57 +2,14 @@
 import Layout from "../assets/ui/layouts/Layout.astro";
 import Line from "../assets/ui/atoms/Line.astro";
 import Propiedad from "../assets/ui/prouns/Propiedad.astro";
-
-const propiedadesDepamarData = [
-    {
-        "idprop": "a0",
-        "transaccion": "venta",
-        "precio": 250000,
-        "hab": 3,
-        "ban": 2,
-        "description": "Hermosa casa familiar en una tranquila zona residencial, con amplias habitaciones y un gran jardín."
-    },
-    {
-        "idprop": "a1",
-        "transaccion": "arriendo",
-        "precio": 1200,
-        "hab": 2,
-        "ban": 1,
-        "description": "Moderno apartamento en el centro de la ciudad, cerca de restaurantes y tiendas, ideal para profesionales jóvenes."
-    },
-    {
-        "idprop": "a2",
-        "transaccion": "venta",
-        "precio": 340000,
-        "hab": 4,
-        "ban": 3,
-        "description": "Espaciosa casa con piscina y área de barbacoa, perfecta para una familia numerosa que busca comodidad."
-    },
-    {
-        "idprop": "a3",
-        "transaccion": "arriendo",
-        "precio": 900,
-        "hab": 1,
-        "ban": 1,
-        "description": "Acogedor estudio en una zona tranquila, ideal para estudiantes o solteros, cerca de universidades y parques."
-    },
-    {
-        "idprop": "a4",
-        "transaccion": "venta",
-        "precio": 150000,
-        "hab": 2,
-        "ban": 2,
-        "description": "Bonito departamento en un complejo cerrado, con seguridad 24/7 y áreas comunes como piscina y gimnasio."
-    }
-]
-;
+import propiedades from "../assets/prop_data/propiedades.json"
+const propiedadesDepamarData = propiedades;
 ---
 
 <Layout title="Depamar Propiedades">
-	<Line/>
 
-	<h2>Depamar Propiedades</h2>
-	<p>Arriendos y Ventas de Propiedades.</p>
+	<h1>Depamar Propiedades</h1>
+	<h5>Arriendo y Venta de Propiedades.</h5>
 
 	<Line/>
 

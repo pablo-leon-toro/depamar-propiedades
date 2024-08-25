@@ -4,11 +4,10 @@ import Line from "../atoms/Line.astro";
 import { ViewTransitions } from "astro:transitions";
 
 interface Props {
-	// typescript
 	title: string;
 }
 
-const { title } = Astro.props; // Astro es una variable global que funciona en todos los archivos .astro con mucha información
+const { title } = Astro.props;
 ---
 
 <!doctype html>
@@ -207,4 +206,3 @@ const { title } = Astro.props; // Astro es una variable global que funciona en t
 	}
 </style>
 
-<!-- Git vamos en 1:27  https://www.youtube.com/watch?v=7ylE8cm3mb0&t=5639s -->

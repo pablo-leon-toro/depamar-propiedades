@@ -1,3 +1,34 @@
 ---
+interface Props {
+	body: string;
+    href: string;
+}
+
+const { href = '/', body = 'Inicio'} = Astro.props;
+
 ---
 
+<a href={href}>{body}</a>
+
+<style>
+    a {
+        width: max-content;
+        cursor: pointer;
+        user-select: none;
+        font-size: calc(.7rem + .3vw);
+        padding: 0.8rem calc(0.5rem + 0.5lvw);
+        border-radius: 3px;
+        transition: scale ease 500ms;
+    }
+    a:is(:hover, :focus-within, .active) {
+        scale: 1.05;
+
+        background: var(--color-wb-4);
+        background: linear-gradient(
+            180deg,
+            var(--color-wb-4-90) 0%,
+            var(--color-wb-5-60) 80%
+        );
+    }
+
+</style>

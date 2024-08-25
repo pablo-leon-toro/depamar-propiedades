@@ -1,0 +1,122 @@
+[
+  {
+    "idprop": "prop001",
+    "transaccion": "venta",
+    "precio": 250000,
+    "hab": 3,
+    "ban": 2,
+    "description": "Hermosa casa de dos niveles ubicada en una tranquila zona residencial, perfecta para familias que buscan comodidad y espacio. La propiedad cuenta con un jardín amplio que rodea la casa, ofreciendo un espacio verde ideal para actividades al aire libre, así como una terraza cubierta que es perfecta para reuniones familiares o simplemente para relajarse al final del día. En el primer nivel, encontramos una amplia sala de estar con ventanales que permiten la entrada de luz natural durante todo el día, creando un ambiente cálido y acogedor. La cocina está completamente equipada con electrodomésticos modernos y tiene un diseño abierto que se integra perfectamente con el comedor. En el segundo nivel, la casa dispone de tres habitaciones amplias, cada una con su propio armario empotrado y vistas al jardín. La habitación principal incluye un baño en suite con acabados de lujo. Esta propiedad es una excelente opción para quienes buscan un hogar en un lugar seguro y apacible, con todas las comodidades necesarias para una vida moderna y confortable."
+  },
+  {
+    "idprop": "prop002",
+    "transaccion": "arriendo",
+    "precio": 1200,
+    "hab": 2,
+    "ban": 1,
+    "description": "Apartamento moderno y luminoso situado en el corazón del centro de la ciudad, ideal para jóvenes profesionales o parejas que buscan la comodidad de vivir cerca de todos los servicios. Este apartamento cuenta con dos habitaciones espaciosas, cada una equipada con grandes armarios y ventanas que ofrecen vistas panorámicas del skyline de la ciudad. La sala de estar es un espacio abierto que se extiende hasta un balcón privado, proporcionando un lugar ideal para disfrutar de un café matutino o de una cena al aire libre mientras se disfruta de la vista. La cocina está equipada con electrodomésticos de acero inoxidable de última generación y tiene un diseño funcional que facilita la preparación de comidas. Además, el apartamento tiene un baño moderno con una amplia ducha y un acabado elegante. El edificio cuenta con seguridad las 24 horas, un gimnasio completamente equipado y una piscina en la azotea, perfecta para relajarse durante los fines de semana. La ubicación del apartamento ofrece fácil acceso a una variedad de restaurantes, cafeterías, tiendas y opciones de entretenimiento, así como a transporte público, lo que lo hace extremadamente conveniente para la vida urbana."
+  },
+  {
+    "idprop": "prop003",
+    "transaccion": "venta",
+    "precio": 450000,
+    "hab": 4,
+    "ban": 3,
+    "description": "Espaciosa casa de campo situada en un entorno natural incomparable, rodeada de montañas y bosques, ideal para aquellos que buscan escapar del ajetreo de la vida urbana y disfrutar de la tranquilidad del campo. Esta propiedad única ofrece cuatro habitaciones, cada una con vistas espectaculares al paisaje montañoso. La habitación principal es especialmente amplia y cuenta con un baño en suite y un vestidor. La casa tiene un gran salón con chimenea, perfecto para las noches frías de invierno, y una cocina rústica completamente equipada que conserva el encanto tradicional, pero con todas las comodidades modernas. La propiedad también incluye un granero antiguo, que ha sido restaurado y puede usarse como espacio de almacenamiento adicional o taller. Además, hay un pequeño lago privado en la propiedad, que es perfecto para la pesca o simplemente para disfrutar de un momento de paz junto al agua. Con amplias áreas exteriores que incluyen un huerto y un jardín de flores, esta casa es ideal para los amantes de la naturaleza y para aquellos que desean cultivar sus propios alimentos. La combinación de tranquilidad, belleza natural y comodidad moderna hace de esta propiedad una oportunidad única en el mercado."
+  },
+  {
+    "idprop": "prop004",
+    "transaccion": "arriendo",
+    "precio": 800,
+    "hab": 1,
+    "ban": 1,
+    "description": "Estudio acogedor en una ubicación privilegiada, ideal para quienes buscan un espacio cómodo y bien ubicado en la ciudad. Este estudio ofrece un diseño abierto con una disposición eficiente del espacio que maximiza cada metro cuadrado. La zona de dormitorio está separada de la sala de estar por una estantería modular que proporciona almacenamiento adicional y una sensación de privacidad. La cocina, aunque compacta, está completamente equipada con todo lo necesario, incluyendo una nevera, microondas y una pequeña estufa eléctrica. El baño es moderno y cuenta con una ducha a ras de suelo y acabados de alta calidad. El estudio tiene grandes ventanas que permiten la entrada de luz natural, creando un ambiente cálido y acogedor. Está ubicado en un barrio con muchos parques y restaurantes, lo que permite disfrutar de la vida al aire libre y de una gran variedad de opciones gastronómicas. La proximidad a varias universidades y centros culturales también hace de este estudio una excelente opción para estudiantes o personas que trabajan en el ámbito artístico o académico. Además, el edificio cuenta con una lavandería común y un pequeño gimnasio, añadiendo conveniencia a la vida diaria de sus residentes."
+  },
+  {
+    "idprop": "prop005",
+    "transaccion": "venta",
+    "precio": 350000,
+    "hab": 5,
+    "ban": 4,
+    "description": "Impresionante casa familiar de grandes dimensiones, ubicada en un vecindario seguro y tranquilo, ideal para una familia numerosa o para aquellos que simplemente desean mucho espacio. Esta propiedad cuenta con cinco habitaciones, todas con armarios empotrados y ventanas grandes que ofrecen vistas al jardín. La habitación principal incluye un baño en suite con bañera y una cabina de ducha independiente. Además, hay tres baños adicionales, todos equipados con acabados modernos y de alta calidad. La cocina es el sueño de cualquier chef, con un diseño abierto que incluye una isla central, encimeras de granito y electrodomésticos de acero inoxidable de última generación. La sala de estar es espaciosa y cuenta con una chimenea de leña, creando un ambiente cálido y acogedor. El comedor se abre a un gran patio trasero, donde hay una piscina y un área de juegos para niños. Además, la casa tiene un garaje doble y un sótano que puede ser utilizado como sala de juegos, gimnasio o taller. Esta propiedad está ubicada cerca de escuelas de alta calificación, tiendas y servicios, lo que la convierte en un lugar ideal para establecerse y disfrutar de la vida en familia. Con su combinación de espacio, comodidad y ubicación, esta casa es una oportunidad excepcional en el mercado."
+  },
+  {
+    "idprop": "prop006",
+    "transaccion": "arriendo",
+    "precio": 950,
+    "hab": 2,
+    "ban": 1,
+    "description": "Departamento recién renovado con acabados de lujo, ubicado en una zona céntrica de la ciudad que ofrece comodidad y estilo de vida urbano. Este departamento cuenta con dos habitaciones bien proporcionadas, cada una equipada con grandes armarios empotrados y ventanas que permiten la entrada de luz natural. La sala de estar es espaciosa y cuenta con un diseño de planta abierta que se extiende hacia la cocina, creando un espacio ideal para el entretenimiento. La cocina está equipada con electrodomésticos modernos de acero inoxidable, encimeras de granito y una barra para desayunar. El baño es amplio y cuenta con una ducha de vidrio templado y acabados elegantes. Además, el departamento tiene un balcón que ofrece vistas panorámicas de la ciudad y un espacio adicional para relajarse al aire libre. El edificio cuenta con servicios adicionales como una piscina, gimnasio y seguridad las 24 horas, lo que proporciona un ambiente seguro y cómodo para sus residentes. La ubicación es ideal, con fácil acceso a tiendas, restaurantes, transporte público y áreas recreativas, lo que lo hace perfecto para aquellos que buscan un estilo de vida dinámico en la ciudad."
+  },
+  {
+    "idprop": "prop007",
+    "transaccion": "venta",
+    "precio": 180000,
+    "hab": 3,
+    "ban": 2,
+    "description": "Casa de una planta con jardín delantero y trasero, ubicada en una calle tranquila y segura, ideal para familias con niños pequeños. La propiedad cuenta con tres habitaciones amplias, cada una con su propio armario empotrado y ventanas que ofrecen vistas al jardín. La habitación principal incluye un baño en suite con una amplia ducha y acabados de alta calidad. La sala de estar es espaciosa y cuenta con grandes ventanales que permiten la entrada de luz natural, creando un ambiente luminoso y acogedor. La cocina está completamente equipada con electrodomésticos modernos y tiene un diseño funcional que facilita la preparación de comidas. Además, la casa tiene un comedor separado que es perfecto para cenas familiares y eventos especiales. El jardín trasero es amplio y cuenta con un área de juegos para niños y un pequeño huerto. La propiedad también tiene un garaje para un coche y un sótano que puede ser utilizado como espacio de almacenamiento adicional o como una sala de juegos. Esta casa es una excelente opción para quienes buscan un hogar cómodo y seguro en un vecindario amigable."
+  },
+  {
+    "idprop": "prop008",
+    "transaccion": "arriendo",
+    "precio": 1100,
+    "hab": 3,
+    "ban": 2,
+    "description": "Apartamento espacioso en un edificio moderno que ofrece una gran cantidad de comodidades para una vida cómoda y conveniente. El apartamento cuenta con tres habitaciones bien iluminadas, cada una con amplios armarios empotrados y vistas al horizonte de la ciudad. La sala de estar es un espacio abierto que se extiende hacia un balcón privado, proporcionando un lugar ideal para disfrutar de un café por la mañana o de una cena al aire libre. La cocina está equipada con electrodomésticos de alta gama y tiene un diseño funcional que facilita la preparación de comidas. Además, el apartamento tiene dos baños modernos, ambos con duchas de vidrio templado y acabados elegantes. El edificio cuenta con un gimnasio completamente equipado, una piscina en la azotea con vistas panorámicas de la ciudad y seguridad las 24 horas, lo que proporciona un ambiente seguro y cómodo para sus residentes. La ubicación del apartamento ofrece fácil acceso a una variedad de tiendas, restaurantes y opciones de entretenimiento, así como a transporte público, lo que lo hace extremadamente conveniente para la vida urbana."
+  },
+  {
+    "idprop": "prop009",
+    "transaccion": "venta",
+    "precio": 500000,
+    "hab": 4,
+    "ban": 3,
+    "description": "Mansión lujosa ubicada en una zona exclusiva de la ciudad, con acabados de alta calidad y características que la hacen única en el mercado. Esta propiedad de ensueño ofrece cuatro habitaciones amplias, cada una con su propio baño en suite y vestidor. La habitación principal es especialmente impresionante, con un amplio vestidor, un baño con jacuzzi y una terraza privada con vistas al jardín. La casa cuenta con una sala de estar elegante con techos altos y una chimenea de mármol, perfecta para recibir a los invitados o disfrutar de una noche tranquila en familia. La cocina es un espacio de alta gama, equipada con electrodomésticos de última generación, encimeras de mármol y una isla central que es ideal para el entretenimiento. Además, la casa tiene un comedor formal, una sala de cine privada y una sala de juegos. En el exterior, la propiedad cuenta con un jardín exuberante con una piscina climatizada, una terraza cubierta con área de barbacoa y un garaje para cuatro coches. Esta propiedad es perfecta para quienes buscan una vida de lujo y comodidad en una ubicación privilegiada."
+  },
+  {
+    "idprop": "prop010",
+    "transaccion": "arriendo",
+    "precio": 750,
+    "hab": 1,
+    "ban": 1,
+    "description": "Pequeño apartamento en un edificio histórico, ideal para alguien que valora la arquitectura clásica y la historia. Este apartamento cuenta con una habitación acogedora, un baño moderno y una cocina compacta pero funcional. La sala de estar es luminosa y tiene techos altos con molduras originales, que añaden un toque de elegancia al espacio. Además, el apartamento tiene grandes ventanas que ofrecen vistas al vecindario histórico y permiten la entrada de mucha luz natural. La ubicación del apartamento es ideal, con fácil acceso a tiendas, restaurantes y transporte público, lo que lo hace extremadamente conveniente para la vida urbana. El edificio cuenta con una lavandería común y un pequeño gimnasio, añadiendo conveniencia a la vida diaria de sus residentes."
+  },
+  {
+    "idprop": "prop011",
+    "transaccion": "venta",
+    "precio": 320000,
+    "hab": 3,
+    "ban": 2,
+    "description": "Casa moderna con grandes ventanales y mucha luz natural, ubicada en una comunidad cerrada con seguridad las 24 horas. Esta propiedad cuenta con tres habitaciones amplias, cada una con su propio armario empotrado y vistas al jardín. La habitación principal incluye un baño en suite con una amplia ducha y acabados de alta calidad. La sala de estar es espaciosa y cuenta con grandes ventanales que permiten la entrada de luz natural, creando un ambiente luminoso y acogedor. La cocina está completamente equipada con electrodomésticos modernos y tiene un diseño funcional que facilita la preparación de comidas. Además, la casa tiene un comedor separado que es perfecto para cenas familiares y eventos especiales. El jardín trasero es amplio y cuenta con un área de juegos para niños y un pequeño huerto. La propiedad también tiene un garaje para un coche y un sótano que puede ser utilizado como espacio de almacenamiento adicional o como una sala de juegos. Esta casa es una excelente opción para quienes buscan un hogar cómodo y seguro en un vecindario amigable."
+  },
+  {
+    "idprop": "prop012",
+    "transaccion": "arriendo",
+    "precio": 1300,
+    "hab": 2,
+    "ban": 2,
+    "description": "Apartamento amueblado con vistas al mar, ideal para ejecutivos o parejas que buscan un lugar cómodo y con estilo. Este apartamento cuenta con dos habitaciones espaciosas, cada una con su propio armario empotrado y vistas al mar. La sala de estar es un espacio abierto que se extiende hacia un balcón privado, proporcionando un lugar ideal para disfrutar de un café por la mañana o de una cena al aire libre. La cocina está equipada con electrodomésticos de alta gama y tiene un diseño funcional que facilita la preparación de comidas. Además, el apartamento tiene dos baños modernos, ambos con duchas de vidrio templado y acabados elegantes. El edificio cuenta con un gimnasio completamente equipado, una piscina en la azotea con vistas panorámicas de la ciudad y seguridad las 24 horas, lo que proporciona un ambiente seguro y cómodo para sus residentes. La ubicación del apartamento ofrece fácil acceso a una variedad de tiendas, restaurantes y opciones de entretenimiento, así como a transporte público, lo que lo hace extremadamente conveniente para la vida urbana."
+  },
+  {
+    "idprop": "prop013",
+    "transaccion": "venta",
+    "precio": 275000,
+    "hab": 4,
+    "ban": 2,
+    "description": "Casa familiar ubicada cerca de escuelas y parques, ideal para una familia que busca comodidad y conveniencia. La propiedad cuenta con cuatro habitaciones amplias, cada una con su propio armario empotrado y ventanas que ofrecen vistas al jardín. La habitación principal incluye un baño en suite con una amplia ducha y acabados de alta calidad. La sala de estar es espaciosa y cuenta con grandes ventanales que permiten la entrada de luz natural, creando un ambiente luminoso y acogedor. La cocina está completamente equipada con electrodomésticos modernos y tiene un diseño funcional que facilita la preparación de comidas. Además, la casa tiene un comedor separado que es perfecto para cenas familiares y eventos especiales. El jardín trasero es amplio y cuenta con un área de juegos para niños y un pequeño huerto. La propiedad también tiene un garaje para un coche y un sótano que puede ser utilizado como espacio de almacenamiento adicional o como una sala de juegos. Esta casa es una excelente opción para quienes buscan un hogar cómodo y seguro en un vecindario amigable."
+  },
+  {
+    "idprop": "prop014",
+    "transaccion": "arriendo",
+    "precio": 900,
+    "hab": 2,
+    "ban": 1,
+    "description": "Apartamento luminoso en el centro con balcón, ideal para quienes buscan un espacio cómodo y bien ubicado en la ciudad. Este apartamento cuenta con dos habitaciones bien proporcionadas, cada una equipada con grandes armarios empotrados y ventanas que permiten la entrada de luz natural. La sala de estar es un espacio abierto que se extiende hacia un balcón privado, proporcionando un lugar ideal para disfrutar de un café por la mañana o de una cena al aire libre. La cocina está equipada con electrodomésticos modernos de acero inoxidable, encimeras de granito y una barra para desayunar. El baño es amplio y cuenta con una ducha de vidrio templado y acabados elegantes. Además, el apartamento tiene un balcón que ofrece vistas panorámicas de la ciudad y un espacio adicional para relajarse al aire libre. El edificio cuenta con servicios adicionales como una piscina, gimnasio y seguridad las 24 horas, lo que proporciona un ambiente seguro y cómodo para sus residentes. La ubicación es ideal, con fácil acceso a tiendas, restaurantes, transporte público y áreas recreativas, lo que lo hace perfecto para aquellos que buscan un estilo de vida dinámico en la ciudad."
+  },
+  {
+    "idprop": "prop015",
+    "transaccion": "venta",
+    "precio": 150000,
+    "hab": 2,
+    "ban": 1,
+    "description": "Casa pequeña pero acogedora, perfecta para una pareja o una familia pequeña que busca un hogar cómodo y bien ubicado. Esta propiedad cuenta con dos habitaciones, cada una con su propio armario empotrado y ventanas que ofrecen vistas al jardín. La sala de estar es un espacio acogedor con grandes ventanales que permiten la entrada de luz natural, creando un ambiente luminoso y acogedor. La cocina está completamente equipada con electrodomésticos modernos y tiene un diseño funcional que facilita la preparación de comidas. Además, la casa tiene un comedor separado que es perfecto para cenas familiares y eventos especiales. El jardín trasero es amplio y cuenta con un área de juegos para niños y un pequeño huerto. La propiedad también tiene un garaje para un coche y un sótano que puede ser utilizado como espacio de almacenamiento adicional o como una sala de juegos. Esta casa es una excelente opción para quienes buscan un hogar cómodo y seguro en un vecindario amigable."
+  }
+]
