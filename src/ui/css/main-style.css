@@ -1,4 +1,4 @@
-/* Estilos Globales */
+/* Estilos Globales y Protons */
 
 /* ------------------- ------------------- Configuración ------------------- ------------------- */
 *,
@@ -10,6 +10,20 @@
 
 /* ------------------- ------------------- Variables ------------------- ------------------- */
 :root {
+
+    /* unidades de corte media q */
+
+    --mq-xs: 320px;
+    /* xs */
+    --mq-s: 420px;
+    /* s */
+    --mq-m: 768px;
+    /* m */
+    --mq-l: 1024px;
+    /* l */
+    --mq-xl: 1620px;
+    /* xl */
+
     /* colores -> relativos a modo */
 
     --color-wb-0: rgb(0, 0, 0);
@@ -27,28 +41,31 @@
     --color-wb-5-60: rgba(255, 255, 255, 0.6);
     --color-wb-5-80: rgba(255, 255, 255, 0.8);
 
-    /* unidades de corte media q */
 
-    --mq-xs: 320px;
-    /* xs */
-    --mq-s: 420px;
-    /* s */
-    --mq-m: 768px;
-    /* m */
-    --mq-l: 1024px;
-    /* l */
-    --mq-xl: 1620px;
-    /* xl */
-
-    --header-max-h: 5rem;
-    /* altura max del header y la navegación. */
-    --maximus-app: 2400px;
-    /* valor máximo del ancho total de la web */
-    --maximus-contenido: 1024px;
-    /* valor máximo del ancho total del contenido */
-    --max-med-contenido: 92lvw;
-    /* valor máximo hasta donde llega el contenido por debajo del maximus-contenido*/
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+
+        --color-wb-0: rgb(255, 255, 255);
+        --color-wb-1: rgb(230, 230, 230);
+        --color-wb-2: rgb(200, 200, 200);
+        --color-wb-3: rgb(80, 80, 80);
+        --color-wb-4: rgb(40, 40, 40);
+        --color-wb-5: rgb(20, 20, 20);
+
+
+        --color-wb-0-80: rgba(255, 255, 255, 0.8);
+        --color-wb-0-60: rgba(255, 255, 255, 0.6);
+        --color-wb-0-40: rgba(255, 255, 255, 0.4);
+        --color-wb-0-16: rgba(255, 255, 255, 0.16);
+        --color-wb-4-90: rgba(40, 40, 40, 0.9);
+        --color-wb-5-60: rgba(20, 20, 20, 0.6);
+        --color-wb-5-80: rgba(20, 20, 20, 0.8);
+    }
+}
+
+
 
 /* ------------------- ------------------- Estilos Generales ------------------- ------------------- */
 body {
@@ -79,6 +96,7 @@ body {
 }
 
 /* ------------------- h1 .. h6 / p / img / a ------------------- */
+
 h1,
 .h1,
 h2,

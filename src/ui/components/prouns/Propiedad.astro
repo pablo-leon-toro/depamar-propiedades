@@ -1,5 +1,5 @@
 ---
-import Line from "../atoms/Line.astro";
+import Line from "@components/atoms/Line.astro";
 
 interface Props {
 	idprop: string;
@@ -17,6 +17,7 @@ const { idprop = 'no-id', transaccion = '', precio = 0, hab = 0, ban = 0, descri
     <h3>Propiedad en {transaccion}</h3>
     <h3>${precio}</h3>
     <h4>{hab} Habitaciones y {ban} Baños.</h4>
+    <p>- {idprop} -</p>
     <p>{description}</p>
 </article>
 

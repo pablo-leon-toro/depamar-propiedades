@@ -1,15 +1,16 @@
 ---
-import Layout from "../ui/layouts/MainLayout.astro";
-import Line from "../ui/components/atoms/Line.astro";
-import Propiedad from "../ui/components/prouns/Propiedad.astro";
-import propiedades from "../assets/prop_data/propiedades.json"
+import Layout from "@layouts/MainLayout.astro";
+import Line from "@components/atoms/Line.astro";
+import Propiedad from "@components/prouns/Propiedad.astro";
+
+import propiedades from "@assets/prop_data/propiedades.json"
 const propiedadesDepamarData = propiedades;
 ---
 
 <Layout title="Depamar Propiedades">
 
 	<h1>Depamar Propiedades</h1>
-	<h5>Arriendo y Venta de Propiedades.</h5>
+	<p>Arriendo y Venta de Propiedades.</p>
 
 	<Line/>
 
