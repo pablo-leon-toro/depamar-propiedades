@@ -29,7 +29,7 @@ const { title } = Astro.props;
 		<ViewTransitions />
 	</head>
 	<body>
-		<HeaderMenu />
+		<HeaderMenu title="Depamar Propiedades"/>
 		<main>
 			<slot>
 				<section class="slot-defecto">
@@ -51,6 +51,7 @@ const { title } = Astro.props;
 	}
 
 	/* ------------------- main: slot general de todas las pages ------------------- */
+	
 	main {
 		width: var(--max-med-contenido);
 		max-width: var(--maximus-contenido);

@@ -44,6 +44,10 @@
 
 }
 
+
+/* 
+modo oscuro
+
 @media (prefers-color-scheme: dark) {
     :root {
 
@@ -63,7 +67,7 @@
         --color-wb-5-60: rgba(20, 20, 20, 0.6);
         --color-wb-5-80: rgba(20, 20, 20, 0.8);
     }
-}
+} */
 
 
 

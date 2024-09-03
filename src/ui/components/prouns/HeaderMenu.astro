@@ -1,10 +1,19 @@
 ---
 import BtnANav from "@components/atoms/BtnANav.astro"
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
 ---
 
 <header>
     <div class="sub-container-header">
-        <h1 class="titulo-principal">Depamar Propiedades</h1>
+        <div class="title-container">
+            <img class="depamar-logo" src="/favicon.svg" alt="Depamar Propiedades" />
+            <h1 class="titulo-principal">{title}</h1>
+        </div>
         <nav class="menu-principal">
             <BtnANav href="/" body="Propiedades"/>
             <BtnANav href="/publica" body="Publica tu Propiedad"/>
@@ -54,11 +63,26 @@ import BtnANav from "@components/atoms/BtnANav.astro"
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
     }
+
+    div.title-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    img.depamar-logo {
+        min-width: 2rem;
+        width: calc(2rem + 1lvw);
+        object-fit: contain;
+        object-position: center;
+        margin-right: calc(0.6rem + 0.8lvw);
+    }
+
     .titulo-principal {
         font-size: calc(1rem + 0.6vw);
-        padding: .8rem 0px;
+        margin-top: 2.4rem;
     }
 
     nav {
