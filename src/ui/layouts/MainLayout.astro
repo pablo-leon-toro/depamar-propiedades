@@ -1,10 +1,11 @@
 ---
 import "@css/main-style.css"; // Estilos globales o Protons y Variables Globales
 
-import HeaderMenu from "@components/prouns/HeaderMenu.astro";
+/* import HeaderMenu from "@components/prouns/HeaderMenu.astro"; */
 import Line from "@components/atoms/Line.astro";
 
 import { ViewTransitions } from "astro:transitions";
+import NavHeader from "@components/prouns/NavHeader.astro";
 
 interface Props {
 	title: string;
@@ -29,7 +30,7 @@ const { title } = Astro.props;
 		<ViewTransitions />
 	</head>
 	<body>
-		<HeaderMenu title="Depamar Propiedades"/>
+		<NavHeader/>
 		<main>
 			<slot>
 				<section class="slot-defecto">
@@ -43,20 +44,15 @@ const { title } = Astro.props;
 </html>
 
 <style is:global>
-	:root {
-		--header-max-h: 5rem; /* altura max del header y la navegación. */
-		--maximus-app: 2048px; /* valor máximo del ancho total de la web */
-		--maximus-contenido: 1480px; /* valor máximo del ancho total del contenido */
-		--max-med-contenido: 92lvw; /* valor máximo hasta donde llega el contenido por debajo del maximus-contenido*/
-	}
+	
 
 	/* ------------------- main: slot general de todas las pages ------------------- */
 	
 	main {
-		width: var(--max-med-contenido);
-		max-width: var(--maximus-contenido);
-		margin: var(--header-max-h) auto 0 auto;
-		min-height: calc(100dvh - var(--header-max-h));
+		width: var(--contenido-w);
+		max-width: var(--max-contenido-w);
+		margin: var(--header-h) auto 0 auto;
+		min-height: calc(100dvh - var(--header-h));
 
 		display: flex;
 		flex-direction: column;

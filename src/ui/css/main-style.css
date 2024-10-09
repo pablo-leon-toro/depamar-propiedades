@@ -11,6 +11,17 @@
 /* ------------------- ------------------- Variables ------------------- ------------------- */
 :root {
 
+    --header-h: 5rem;
+    /* altura del header y la navegación. */
+
+    --max-app-w: 2048px;
+    /* valor máximo del ancho total de la web */
+   
+    --max-contenido-w: 1480px;
+    /* valor máximo del ancho total del contenido */
+    --contenido-w: 92lvw;
+    /* valor máximo hasta donde llega el contenido por debajo del --max-contenido-w */
+
     /* unidades de corte media q */
 
     --mq-xs: 320px;
@@ -24,7 +35,11 @@
     --mq-xl: 1620px;
     /* xl */
 
-    /* colores -> relativos a modo */
+    /* colores */
+
+    --color-depablue: rgb(10, 113, 178);
+
+    /* blanco y negro, grises */
 
     --color-wb-0: rgb(0, 0, 0);
     --color-wb-1: rgb(26, 26, 26);
@@ -46,6 +61,7 @@
 
 
 /* 
+
 modo oscuro
 
 @media (prefers-color-scheme: dark) {
@@ -95,7 +111,7 @@ body {
 /* ------------------- colores al seleccionar el texto ------------------- */
 
 ::selection {
-    background-color: var(--color-wb-0);
+    background-color: var(--color-depablue);
     color: var(--color-wb-5);
 }
 
@@ -122,22 +138,22 @@ h6,
 
 h1,
 .h1 {
-    font-size: calc(2.2rem + 1.2vw);
+    font-size: min(calc(2.2rem + 1.2vw),calc(2.2rem + 0.12*var(--max-app-w)));
 }
 
 h2,
 .h2 {
-    font-size: calc(1.8rem + 0.9vw);
+    font-size: min(calc(1.8rem + 0.9vw),calc(1.8rem + 0.09*var(--max-app-w)));
 }
 
 h3,
 .h3 {
-    font-size: calc(1.6rem + 0.6vw);
+    font-size: min(calc(1.6rem + 0.6vw),calc(1.6rem + 0.06*var(--max-app-w)));
 }
 
 h4,
 .h4 {
-    font-size: calc(1.4rem + 0.3vw);
+    font-size: min(calc(1.4rem + 0.3vw),calc(1.4rem + 0.03*var(--max-app-w)));
 }
 
 h5,
@@ -173,6 +189,10 @@ a {
 
 a:visited {
     color: var(--color-wb-0);
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 li {

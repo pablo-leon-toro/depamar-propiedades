@@ -21,6 +21,7 @@ const { href = '/', body = 'Inicio'} = Astro.props;
         transition: scale ease 500ms;
     }
     a:is(:hover, :focus-within, .active) {
+        text-decoration: none;
         scale: 1.05;
 
         background: var(--color-wb-4);
